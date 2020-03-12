@@ -1,0 +1,13 @@
+while forever:
+	read command from keyboard (scanf)
+
+	if command is "quit":
+		break
+
+	fork()
+
+	if child:
+		exec the input command (execvp...)
+	else:
+		wait for child to finish (wait)
+
